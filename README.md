@@ -72,7 +72,7 @@ This route gets details using the ```/<customer-id>/orders/<order-id>``` GET rou
 ## Prerequisites
 
 1. [Node.js](https://nodejs.org/en/download/) must be installed on the machine.
-2. [Docker]() must be installed on the machine.
+2. [Docker](https://docs.docker.com/toolbox/toolbox_install_windows/) must be installed on the machine.
 
 
 ## Execution Instructions
