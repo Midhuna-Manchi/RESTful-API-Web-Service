@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {https://us.bbcollab.com/guest/655e3e98594246a7bcd5218b6c90e1ce
+  margin: 0;
+  font-family : "Times New Roman", Times, serif;
+  }
+
+header {
+  overflow : hidden ;
+  background-image: url('cherryblossom2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover ;
+  color: white;
+  transform : translateX(-0%);
+  text-align : center;
+  padding: 35px;
+  }
+#content {
+	display : block;
+	text-align : justify;
+ }
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+  min-height: 32vw;
+  }
+
+main{
+  overflow: auto;
+  flex:50%;
+  padding : 20px;
+  }
+
+aside {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 20px;
+  background-color:#EBF5FB;
+  }
+
+a{
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0 80px;
+}
+#blog{
+  margin:10px;
+  display: inline-flex;
+}
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #F2F4F4;
+  }
+
+ @media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    }
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+  }
+  th, td {
+    padding: 5px;
+    text-align: center;
+  }

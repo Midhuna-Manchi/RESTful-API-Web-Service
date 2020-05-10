@@ -1,0 +1,30 @@
+{
+    "customers" : [
+        {
+            "id":1,
+            "customerName" : "Midhuna Manchi",
+            "Address": "New haven, Unit-100, CT",
+            "orders":[{"orderId":1,"orderItems":"Phone, Screencover","price":"2500", "date":"05/03/2020"},
+                      {"orderId":2,"orderItems":"Laptop, Case","price":"12500", "date":"02/02/2020"},
+                      {"orderId":3,"orderItems":"Wireless Mouse","price":"500", "date":"03/02/2020"},
+                      {"orderId":14,"orderItems":"Wireless Mouse","price":"500", "date":"03/02/2020"}]
+          },
+        {
+            "id":2,
+            "customerName" : "Syam Warrier",
+            "Address": "Newyork, Unit-200, CT",
+            "orders":[{"orderId":4,"orderItems":"Phone, Screencover","price":"2600", "date":"03/03/2020"},
+                      {"orderId":5,"orderItems":"Laptop, Case","price":"12500", "date":"01/02/2020"},
+                      {"orderId":6,"orderItems":"Wireless Mouse","price":"500", "date":"04/03/2020"}]
+
+        },
+        {
+            "id":3,
+            "customerName" : "Krishna Manchi",
+            "Address": "New Jersy, Unit-300, CT",
+            "orders":[{"orderId":7,"orderItems":"Phone, Screencover","price":"2500", "date":"05/03/2020"},
+                      {"orderId":8,"orderItems":"Laptop, Case","price":"12500", "date":"02/02/2020"},
+                      {"orderId":9,"orderItems":"Wireless Mouse","price":"500", "date":"03/02/2020"}]
+          }
+    ]
+}

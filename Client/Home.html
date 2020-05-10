@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+ 	<script src="script.js"></script>
+</head>
+<body onload="loadAllCustomers()">
+	<header>
+		<h1> Welcome </h1>
+	</header>
+
+	<div class="row">
+	
+		<main>
+			<h1 align="center"> Customer and Order Details </h1>
+			<table width="100%" style="border:none;">
+			<tr>
+			<td style="border:none">
+			
+
+			<div>
+			<label for="customerSelection"><b>Please select Customer/s:</b></label>
+			<select id="customerSelection" onchange="loadCustomer()">
+			</select>
+			</div>
+			
+			</td>
+			
+			<td style="border:none">
+			<div>
+			<label for="customerOrderSelection"><b>Please select Order/s:</b></label>
+			<select id="customerOrderSelection" onchange="loadCustomerOrder()">
+			</select>
+			</div>
+			</td>
+			
+			</tr>
+			<tr>
+			
+			<td style="border:none">
+			<div class="CustomerTable" align="center" >
+			<table id="CustomerTable">
+			  <caption><h3>Customer Info</h3></caption>
+			  <tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Address</th>
+			  </tr>
+			</table>
+			</div>
+			
+			</td>
+			<td style="border:none;">
+			
+			<div class="CustomerOrdersTable" align="center">
+			<table id="CustomerOrdersTable">
+			  <caption><h3>Order Info</h3></caption>
+			  <tr>
+				<th>Order ID</th>
+				<th>Order Items</th>
+				<th>Total Price</th>
+				<th>Order Date</th>
+			  </tr>
+			</table>
+			</div>
+			
+			</td>
+			</tr>
+			</table>
+
+		</main>
+
+		<aside>
+			<ul>
+				<li>
+					<a href="Home.html">Home</a>
+				</li>
+			</ul>
+		</aside>
+	</div>
+
+	<footer>
+		<p>Copyright © MyFirstAPI.com.</p>
+	</footer>
+ </body>
+</html>
